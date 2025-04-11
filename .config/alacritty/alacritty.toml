@@ -1,0 +1,9 @@
+[font]
+size = 12
+
+[font.normal]
+family = "FiraCode Nerd Font Mono"
+style = "Regular"
+
+[general]
+import = ["/home/spookypoopy/.config/alacritty/themes/themes/tokyo_night.toml"]
