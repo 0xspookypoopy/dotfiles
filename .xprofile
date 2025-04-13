@@ -1,0 +1,6 @@
+export _JAVA_AWT_WM_NONREPARENTING=1
+export BROWSER=firefox
+
+picom &
+feh --bg-fill -no-fehbg $HOME/pictures/wallpapers/westfalia.jpg &
+xsetroot -cursor_name left_ptr &
