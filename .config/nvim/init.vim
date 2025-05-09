@@ -12,7 +12,7 @@ set expandtab
 
 call plug#begin()
 " Plug 'haishanh/night-owl.vim'
-" Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
+Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 Plug 'folke/tokyonight.nvim'
 Plug 'preservim/nerdtree'
 Plug 'nvim-lua/plenary.nvim'
@@ -26,5 +26,4 @@ nnoremap <leader>fb <cmd>Telescope buffers<cr>
 nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 
 set termguicolors
-" colorscheme catppuccin-macchiato
-colorscheme tokyonight-night
+colorscheme catppuccin-macchiato
